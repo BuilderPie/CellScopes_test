@@ -2,7 +2,7 @@
 Updated: November 30th, 2023\
 OS: Linux x86\
 Julia Version: 1.9.4\
-CellScopes Version: CellScopes.jl#julia_v1_9\
+CellScopes Version: CellScopes.jl#julia_v1_9
 
 
 ## Part 1. Install Julia Language
