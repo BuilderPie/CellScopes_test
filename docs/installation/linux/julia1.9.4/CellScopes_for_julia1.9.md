@@ -70,7 +70,7 @@ First enter Julia by typying
 julia
 ```
 
-Within Julia interactive session, first install Leiden.jl and then install CellScopes.jl#julia_v1_9.
+Inside Julia interactive session, first install Leiden.jl and then install CellScopes.jl#julia_v1_9.
 
 ```
 using Pkg
