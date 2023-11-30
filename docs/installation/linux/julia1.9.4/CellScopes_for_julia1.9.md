@@ -17,7 +17,7 @@ cd /home/users/doe/
 If you would like to completely remove an old Julia installation:
 
 ```
-rm -rf julia/
+rm -rf julia-1.9.4/
 rm -rf .julia/
 ```
 
