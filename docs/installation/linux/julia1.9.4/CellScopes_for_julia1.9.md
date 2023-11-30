@@ -5,7 +5,7 @@ Updated: November 30th, 2023
 
 ### Step 1.0. Preparation
 
-On Linux server, assume your user name is doe, and your login directory is at **/home/user/doe/**. We will use this directory to download and install Julia for demonstration purposes.  
+On Linux server, assume your username is doe, and your login directory is at **/home/user/doe/**. We will use this directory to download and install Julia for demonstration purposes.  
 
 ```
 cd /home/users/doe/
@@ -66,7 +66,7 @@ First enter Julia by typying
 julia
 ```
 
-Within Julia interactive session, first install Leiden.jl followed by CellScopes.jl#julia_v1_9.
+Within Julia interactive session, first install Leiden.jl and then install CellScopes.jl#julia_v1_9.
 
 ```
 using Pkg
