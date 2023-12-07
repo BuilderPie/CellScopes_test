@@ -15,7 +15,7 @@ On the Linux server, assume your username is doe, and your login directory is at
 cd /home/users/doe/
 ```
 
-<span style="color:red">some *WARNING: Not Recommanded!* If you would like to completely remove an old Julia installation:</span>
+<span style="color:red">*WARNING: Not Recommanded!* If you would like to completely remove an old Julia installation:</span>
 
  
 
