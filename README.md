@@ -12,4 +12,4 @@ This repo notes down the test scripts for <a href="https://github.com/HaojiaWu/C
 
 ### Part 1.2. Docker
 
-1. <a href="https://builderpie.github.io/CellScopes_test/docs/installation/docker/24.0.5/CCellScopes_for_Docker24.0.5" target="_blank">CellScopes for Docker 24.0.5</a>.
+1. <a href="https://builderpie.github.io/CellScopes_test/docs/installation/docker/24.0.5/CellScopes_for_Docker24.0.5" target="_blank">CellScopes for Docker 24.0.5</a>.
