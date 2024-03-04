@@ -20,10 +20,10 @@ Contact: Dian Li
 
 ## Part 0. Introduction
 
-<span style="color:red">*WARNING: sudo required* </span>
+<span style="color:red">*WARNING: sudo is required for installation* </span>
 
 - The Docker installation in this notes was tested on both Mac and Ubuntu operating systems.
-- **Sudo access is necessary**.
+- **Sudo access is necessary for installation**.
 - OS_1 (remote) serves as the host for the [CellScopes Docker image](https://hub.docker.com/r/thehumphreyslab/cellscopes).
 - While OS_2 (optional and potentially the same as OS_1) is utilized for accessing [CellScopes](https://github.com/HaojiaWu/CellScopes.jl) through Jupyter Notebook.
 
@@ -71,7 +71,7 @@ Here is a snapshot for the operations mentioned above
 To connect a directory on OS_1 with the Docker container, we can:
 
 ```
-sudo docker run -it \
+docker run -it \
 --rm \
 -v /Directory_To_Mount:/usr/local/data \
 thehumphreyslab/cellscopes
@@ -115,7 +115,7 @@ Here are the code for making the connection
 ### doe@10.10.1.1
 
 ### On OS_1
-sudo docker run -it \
+docker run -it \
 --name cellscopes \
 --rm \
 -p 5237:5237 \
