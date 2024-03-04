@@ -1,11 +1,11 @@
 title: CellScopes_Test
 description: >- 
   This repo notes the test documents for CellScopes at https://github.com/HaojiaWu/CellScopes.jl.
-baseurl: "CellScopes_test" # the subpath of your site, e.g., /repository
+baseurl: "CellScopes_test/README.md" # the subpath of your site, e.g., /repository
 url: "https://builderpie.github.io/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-theme: minima # or another theme of your choice
+theme: minima 
 plugins:
   - jekyll-feed
