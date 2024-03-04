@@ -9,12 +9,15 @@ CellScopes Version: CellScopes.jl#julia_v1_9
 
 ### Step 1.0. Preparation
 
-On Linux server, assume your username is doe, and your login directory is at **/home/user/doe/**. We will use this directory to download and install Julia for demonstration purposes.  
+On the Linux server, assume your username is doe, and your login directory is at **/home/user/doe/**. We will use this directory to download and install Julia for demonstration purposes.  
 
 ```
 cd /home/users/doe/
 ```
-If you would like to completely remove an old Julia installation:
+
+<span style="color:red">*WARNING: Not Recommanded!* If you would like to completely remove an old Julia installation:</span>
+
+ 
 
 ```
 rm -rf julia-1.9.4/
@@ -56,7 +59,7 @@ export PATH=/home/users/doe/julia-1.9.4/bin:$PATH
 
 ### Step 1.3. Reload .bashrc
 
-To implement your changes, either open a new login session, or reload the .bashrc via
+To implement your changes, either open a new login session or reload the .bashrc via
 
 ```
 source ~/.bashrc
@@ -64,7 +67,7 @@ source ~/.bashrc
 
 ## Part 2. Install CellScopes for Julia v1.9
 
-First enter Julia by typying 
+First, enter Julia by typing 
 
 ```
 julia
